@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Yokk" name="RationalTest" skipped="0" tests="11" time="0.043" timestamp="2023-09-12T15:16:22">
+  <properties>
+    <property name="ant.library.dir" value="C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\lib\ant\lib" />
+    <property name="ant.file.type" value="file" />
+    <property name="java.specification.version" value="17" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\jbr!\gluegen.rt;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\jbr!\java.base;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\jbr!\java.compiler;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\jbr!\java.datatransfer;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\jbr!\java.desktop;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\jbr!\java.instrument;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\jbr!\java.logging;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\jbr!\java.management;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\jbr!\java.management.rmi;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\jbr!\java.naming;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\jbr!\java.net.http;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\jbr!\java.prefs;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\jbr!\java.rmi;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\jbr!\java.scripting;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\jbr!\java.se;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\jbr!\java.security.jgss;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\jbr!\java.security.sasl;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\jbr!\java.smartcardio;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\jbr!\java.sql;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\jbr!\java.sql.rowset;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\jbr!\java.transaction.xa;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\jbr!\java.xml;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\jbr!\java.xml.crypto;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\jbr!\jcef;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\jbr!\jdk.accessibility;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\jbr!\jdk.attach;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\jbr!\jdk.charsets;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\jbr!\jdk.compiler;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\jbr!\jdk.crypto.cryptoki;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\jbr!\jdk.crypto.ec;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\jbr!\jdk.crypto.mscapi;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\jbr!\jdk.dynalink;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\jbr!\jdk.hotspot.agent;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\jbr!\jdk.httpserver;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\jbr!\jdk.internal.ed;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\jbr!\jdk.internal.jvmstat;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\jbr!\jdk.internal.le;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\jbr!\jdk.internal.vm.ci;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\jbr!\jdk.javadoc;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\jbr!\jdk.jcmd;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\jbr!\jdk.jdi;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\jbr!\jdk.jdwp.agent;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\jbr!\jdk.jfr;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\jbr!\jdk.jsobject;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\jbr!\jdk.localedata;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\jbr!\jdk.management;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\jbr!\jdk.management.agent;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\jbr!\jdk.management.jfr;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\jbr!\jdk.naming.dns;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\jbr!\jdk.naming.rmi;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\jbr!\jdk.net;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\jbr!\jdk.sctp;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\jbr!\jdk.security.auth;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\jbr!\jdk.security.jgss;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\jbr!\jdk.unsupported;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\jbr!\jdk.unsupported.desktop;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\jbr!\jdk.xml.dom;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\jbr!\jdk.zipfs;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\jbr!\jogl.all;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\lib\ant\lib\ant.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\lib\idea_rt.jar" />
+    <property name="java.vm.vendor" value="JetBrains s.r.o." />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="user.variant" value="" />
+    <property name="java.vendor.url" value="https://openjdk.java.net/" />
+    <property name="java.vm.specification.version" value="17" />
+    <property name="os.name" value="Windows 10" />
+    <property name="user.country" value="US" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.boot.library.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\jbr\bin" />
+    <property name="sun.java.command" value="com.intellij.rt.ant.execution.AntMain2 -logger com.intellij.rt.ant.execution.IdeaAntLogger2 -inputhandler com.intellij.rt.ant.execution.IdeaInputHandler -buildfile C:\Users\yokfr\Desktop\QA\Rational\build.xml test" />
+    <property name="jdk.debug" value="release" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="user.home" value="C:\Users\yokfr" />
+    <property name="user.language" value="en" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.version.date" value="2022-10-18" />
+    <property name="java.home" value="C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\jbr" />
+    <property name="file.separator" value="\" />
+    <property name="basedir" value="C:\Users\yokfr\Desktop\QA\Rational" />
+    <property name="java.vm.compressedOopsMode" value="32-bit" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="ant.java.version" value="17" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="jbr.virtualization.information" value="No virtualization detected" />
+    <property name="user.script" value="" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="java.runtime.version" value="17.0.5+1-b653.25" />
+    <property name="user.name" value="Yokk" />
+    <property name="ant.file" value="C:\Users\yokfr\Desktop\QA\Rational\build.xml" />
+    <property name="path.separator" value=";" />
+    <property name="os.version" value="10.0" />
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="ant.project.invoked-targets" value="test" />
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
+    <property name="java.vendor.version" value="JBR-17.0.5+1-653.25-jcef" />
+    <property name="ant.core.lib" value="C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\lib\ant\lib\ant.jar" />
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/" />
+    <property name="java.io.tmpdir" value="C:\Users\yokfr\AppData\Local\Temp\" />
+    <property name="java.version" value="17.0.5" />
+    <property name="user.dir" value="C:\Users\yokfr\Desktop\QA\Rational" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.home" value="C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\lib\ant" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="native.encoding" value="Cp1252" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.12 compiled on October 13 2021" />
+    <property name="java.library.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\jbr\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Program Files\nodejs\;C:\Users\yokfr\AppData\Local\Microsoft\WindowsApps;C:\Users\yokfr\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\bin;;C:\Users\yokfr\AppData\Local\GitHubDesktop\bin;C:\flutter\bin;C:\Users\yokfr\AppData\Roaming\npm;." />
+    <property name="java.vendor" value="JetBrains s.r.o." />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="java.vm.version" value="17.0.5+1-b653.25" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="java.class.version" value="61.0" />
+  </properties>
+  <testcase classname="RationalTest" name="testEqual_1" time="0.004" />
+  <testcase classname="RationalTest" name="testEqual_2" time="0.001" />
+  <testcase classname="RationalTest" name="testAdd" time="0.0" />
+  <testcase classname="RationalTest" name="testCompareTo_1" time="0.0" />
+  <testcase classname="RationalTest" name="testCompareTo_2" time="0.0" />
+  <testcase classname="RationalTest" name="testCompareTo_3" time="0.0" />
+  <testcase classname="RationalTest" name="testToString" time="0.003" />
+  <testcase classname="RationalTest" name="testSubtract_1" time="0.0" />
+  <testcase classname="RationalTest" name="testSubtract_2" time="0.0" />
+  <testcase classname="RationalTest" name="testDivide" time="0.0" />
+  <testcase classname="RationalTest" name="testMultiply" time="0.0" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
